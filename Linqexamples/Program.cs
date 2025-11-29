@@ -19,13 +19,30 @@ namespace Linqexamples
          };
         static void Main(string[] args)
         {
-            //Legdrágább játék adatinak a kiszűrése
+            //Csoportosítsunk műfajonkét játékokat
+
+            var groupByGenre = games.GroupBy(x => x.Genre);
+
+            foreach (var group in groupByGenre)
+            {
+                Console.Write(group.Key+ " : ");
+
+                int db = 0;
+                foreach (var game in group)
+                {
+                    db++;
+                }
+
+                Console.WriteLine(db);
+            }
+
+            /*Legdrágább játék adatinak a kiszűrése
             var mostExpensiveGamePrice = games.Max(x => x.Price);
             var mostExpensiveGame = games.Where(x => x.Price == mostExpensiveGamePrice);
             foreach (var item in mostExpensiveGame)
             {
                 Console.WriteLine(item.Title);
-            }
+            }*/
 
             /*Játékok átlag árának kiszámítása
             var avgPrice = games.Average(x => x.Price);
