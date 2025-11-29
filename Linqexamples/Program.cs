@@ -19,13 +19,18 @@ namespace Linqexamples
          };
         static void Main(string[] args)
         {
-            //Lista elemeinek rendezése
+            //Játékok átlag árának kiszámítása
+
+            var avgPrice = games.Average(x => x.Price);
+            Console.WriteLine(avgPrice);
+
+            /*Lista elemeinek rendezése
             var sortedByYear = games.OrderByDescending(x => x.ReleaseYear);
 
             foreach (var game in sortedByYear)
             {
                 Console.WriteLine(game.Title + " - " + game.ReleaseYear);
-            }
+            }*/
 
             /*Döntsük el hogy van e játék , amit 1984-ben adatak
             var gameRelease = games.Any(x => x.ReleaseYear == 1884);
