@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,11 +19,17 @@ namespace Linqexamples
          };
         static void Main(string[] args)
         {
+            //Lista elemeinek rendezése
+            var sortedByYear = games.OrderByDescending(x => x.ReleaseYear);
 
+            foreach (var game in sortedByYear)
+            {
+                Console.WriteLine(game.Title + " - " + game.ReleaseYear);
+            }
 
-            //Döntsük el hogy van e játék , amit 1984-ben adatak
+            /*Döntsük el hogy van e játék , amit 1984-ben adatak
             var gameRelease = games.Any(x => x.ReleaseYear == 1884);
-            Console.WriteLine(gameRelease);
+            Console.WriteLine(gameRelease);*/
 
 
             /*Össz rpg műfajú játék
