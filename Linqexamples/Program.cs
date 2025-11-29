@@ -19,13 +19,19 @@ namespace Linqexamples
         static void Main(string[] args)
         {
 
-            //Össz rpg műfajú játék
+
+            //Döntsük el hogy van e játék , amit 1984-ben adatak
+            var gameRelease = games.Any(x => x.ReleaseYear == 1884);
+            Console.WriteLine(gameRelease);
+
+
+            /*Össz rpg műfajú játék
             var rpgGames = games.Where(x => x.Genre == "Rpg");
 
             foreach (var item in rpgGames)
             {
                 Console.WriteLine(item.Title + " - " + item.Genre);
-            }
+            }*/
 
             /*Összes Title tulajdonság a listából
             var gameTitles = games.Select(x => x.Title);
