@@ -1,0 +1,8 @@
+C:\Users\zoli\Desktop\2025_2026\13ABackend\Linqexamples\Linqexamples\bin\Debug\Linqexamples.exe.config
+C:\Users\zoli\Desktop\2025_2026\13ABackend\Linqexamples\Linqexamples\bin\Debug\Linqexamples.exe
+C:\Users\zoli\Desktop\2025_2026\13ABackend\Linqexamples\Linqexamples\bin\Debug\Linqexamples.pdb
+C:\Users\zoli\Desktop\2025_2026\13ABackend\Linqexamples\Linqexamples\obj\Debug\Linqexamples.csproj.AssemblyReference.cache
+C:\Users\zoli\Desktop\2025_2026\13ABackend\Linqexamples\Linqexamples\obj\Debug\Linqexamples.csproj.CoreCompileInputs.cache
+C:\Users\zoli\Desktop\2025_2026\13ABackend\Linqexamples\Linqexamples\obj\Debug\Linqexamples.exe
+C:\Users\zoli\Desktop\2025_2026\13ABackend\Linqexamples\Linqexamples\obj\Debug\Linqexamples.pdb
+C:\Users\zoli\Desktop\2025_2026\13ABackend\Linqexamples\Linqexamples\obj\Debug\Linqexamples.exe.config
